@@ -1,4 +1,6 @@
-package utils;
+package ssssuper.utils;
+
+import utils.NewLottery;
 
 public class NewLotteryTest {
     public static void main(String[] args) {

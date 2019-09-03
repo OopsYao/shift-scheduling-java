@@ -1,4 +1,6 @@
-package utils;
+package ssssuper.utils;
+
+import utils.Mahalanobis;
 
 import java.util.Collection;
 import java.util.HashSet;

@@ -24,7 +24,7 @@ public class TextDealer {
     }
 
     private void init() {
-        geneticAlgorithm = new GeneticAlgorithm<>() {
+        geneticAlgorithm = new GeneticAlgorithm<List<Integer>>() {
             @Override
             protected Map<Integer, Integer> getSelection(List<List<Integer>> population, int currentGeneration) {
                 Mahalanobis mahalanobis = new Mahalanobis();

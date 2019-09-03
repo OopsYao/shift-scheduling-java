@@ -22,7 +22,7 @@ public class NewLottery<Key> {
     public void add(Key key, int num) {
         if (box.containsKey(key)) {
             box.put(key, num + box.get(key));
-        }else {
+        } else {
             box.put(key, num);
             if (num > 0) {
                 typedRemained++;
@@ -39,7 +39,7 @@ public class NewLottery<Key> {
         if (total > 0) {
             int r = random.nextInt(total);
             int right = 0, left;
-            for (var entry : box.entrySet()) {
+            for (Map.Entry<Key, Integer> entry : box.entrySet()) {
                 left = right;
                 right += entry.getValue();
                 if (r >= left && r < right) {

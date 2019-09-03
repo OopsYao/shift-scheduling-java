@@ -1,6 +1,5 @@
 package ssssuper;
 
-import utils.MapStatistic;
 import utils.MapStatistics;
 
 public class ShiftOrientedIndicator extends GeneralIndicator {
@@ -11,7 +10,7 @@ public class ShiftOrientedIndicator extends GeneralIndicator {
         this.idealShiftSize = idealShiftSize;
     }
 
-    protected void preprocess(MapStatistics<String,Integer> manView, MapStatistics<String,Integer> shiftView) {
+    protected void preprocess(MapStatistics<String, Integer> manView, MapStatistics<String, Integer> shiftView) {
 
     }
 
